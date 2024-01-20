@@ -1,4 +1,3 @@
-
 select
     j.job_id job_id,
 	j.job_title name,

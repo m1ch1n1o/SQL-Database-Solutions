@@ -1,4 +1,3 @@
-
 select
     emp.FIRST_NAME || ' - ' || emp.LAST_NAME  "F and L",
     NVL(dep.DEPARTMENT_NAME, 'X')  "Department",

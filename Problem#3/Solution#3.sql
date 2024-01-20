@@ -1,4 +1,3 @@
-
 SELECT
     SUBSTR(j.JOB_ID, 1, INSTR(j.JOB_ID,'_') - 1) "pref",
 

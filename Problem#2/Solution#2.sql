@@ -1,4 +1,3 @@
-
 select e.FIRST_NAME || ' ' || e.LAST_NAME "Full_name",
     TO_CHAR(e.salary,'$999,999,999.99') "Salary",
     NVL2(e.EMAIL, CASE WHEN e.EMAIL LIKE '%_@%' THEN SUBSTR(e.EMAIL, 1, INSTR(e.EMAIL,'@'))
